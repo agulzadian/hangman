@@ -1,5 +1,5 @@
 // ------- Game word ---------
-var inputWord = "spandex".toUpperCase();
+var inputWord = "Laura".toUpperCase();
 var word = Array.from(inputWord);
 var lettersList = document.querySelector("#letters");
 var letters = document.querySelector("#letters").getElementsByTagName("li");
@@ -54,3 +54,11 @@ function guessChecker(e){
     }
   }
 }
+
+/*
+- type in word to guess
+- alert box when win and Lose
+- draw hangman
+- have computer randomly pick game word from a set of 500
+- restart button
+*/
